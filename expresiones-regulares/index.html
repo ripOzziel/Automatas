@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expresiones regulares</title>
+  </head>
+  <center>
+  <body>
+    <div id="encabezado">
+    <h1>Expresiones regulares</h1>
+    </div>
+    <div id="divMsj">
+    <form id="miFormulario">
+      <br><label for="ingresoDatos">Por favor, ingresa tu texto:</label><br>
+      <textarea name="texto" id="texto" placeholder="Texto" > </textarea> <br><br>
+      <label for="ingresoER">Ingresa la expresion regular:</label><br>
+      <input type="text" name="er" id="er" placeholder="Expresion regular"> <br> <br>
+      <button id="analizar">Analizar</button>
+      <button id="limpiar">Limpiar</button>
+    </form>
+    <label for="seleccion">Selecciona una bandera:</label>
+    <select id="seleccion">
+        <option value="global">Global</option>
+        <option value="insensitive">Insensitive case global</option>
+      
+    </select>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+  </center>
+  
+</html>
